@@ -1,10 +1,10 @@
 require([
         'jquery',
-        '../../shared/helper.js'
+        '../shared/helper.js'
     ],
 
     function ($, helper) {
         'use strict';
-        console.log('Loaded successfully.');
+        console.log('Loaded successfully.', $, helper);
     }
 );
